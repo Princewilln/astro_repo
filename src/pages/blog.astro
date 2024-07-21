@@ -1,4 +1,8 @@
-
+---
+import Footer from '../components/Footer.astro';
+import Navigation from '../components/Navigation.astro';
+import '../styles/global.css';
+---
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,9 +10,7 @@
     <title>Blog</title>
 </head>
 <body>
-     <a href="/">Home</a>
-     <a href="/about/">About</a>
-     <a href="/blog/">Blog</a>
+      <Navigation />
     <header>
         <h1>My Blog Post</h1>
             <ul>
@@ -44,5 +46,8 @@
             </footer>
         </article>
     </main>
+        <Footer />
+  </body>
+</html>
 </body>
 </html>
